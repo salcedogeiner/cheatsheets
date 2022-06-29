@@ -73,7 +73,7 @@ mysqldump -u Username -p dbNameYouWant > databasename_backup.sql
 ### Restore from backup SQL File
 
 ```bash
-mysql - u Username -p dbNameYouWant < databasename_backup.sql;
+mysql -u Username -p dbNameYouWant < databasename_backup.sql;
 ```
 
 ### Repair Tables After Unclean Shutdown
@@ -204,7 +204,7 @@ Host ‘%’ indicates any host.
 ### Main Data Types
 
 ```sql
-TINYINT (1o: -217+128)
+TINYINT (1o: -128 to +127)
 SMALLINT (2o: +-65 000)
 MEDIUMINT (3o: +-16 000 000)
 INT (4o: +- 2 000 000 000)
